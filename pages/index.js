@@ -28,7 +28,10 @@ export default function Home(props) {
       >
         {
           props.users && props.users.map(user => {
-            return (<Card user = {user}  ></Card> )
+            return (
+            <div id={user.id}>
+              <Card user = {user}  ></Card> )
+            </div>
           }) 
         }
 
