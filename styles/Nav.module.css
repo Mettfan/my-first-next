@@ -1,0 +1,38 @@
+
+.nav a {
+    display: flex;
+    flex-direction: row;
+    flex-direction: flex-end;
+    /* justify-content: space-between; */
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.nav a:hover,
+  .nav a:focus,
+  .nav a:active {
+      text-decoration: underline;
+    }
+    .appbar{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-evenly;
+        /* width: 100%; */
+        background-color: red;
+        /* margin: 3px; */
+        height: 50px;
+        
+        
+    }
+    @media (min-width: 600px) {
+        .appbar{
+            justify-content: flex-end;
+        }
+        
+  }
+
+.button{
+    margin: 5px;
+}
