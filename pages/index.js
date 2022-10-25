@@ -11,10 +11,10 @@ export default function Home(props) {
 
   return (
     <div className={styles.container}>
-      <Head>
+      {/* <Head>
         <title>Mettfan's Next</title>
         <meta name='keywords' content='web development, programming'></meta>
-      </Head>
+      </Head> */}
       <h1>Welcome to my Page!</h1>
       <Users users = {props.users}/>
       <Divider></Divider>
