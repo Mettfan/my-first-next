@@ -6,7 +6,7 @@ function Users({users, debtors, debts}) {
     
         <Stack>
             {users.map(user => {
-                return (<div id={user.id} >
+                return (<div key={user.id} id={user.id} >
                     <Box 
                         display={'flex'}
                         justifyContent={'space-around'}
